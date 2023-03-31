@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Custom Go Urls",
+  "description": "Custom Go Urls",
+  "version": "0.1",
+
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "go-url-icon.png",
+    "default_title": "GoUrl",
+    "default_popup": "go-url-popup.html"
+  }
+}

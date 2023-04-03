@@ -12,3 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('rootUrl').value = result.goUrlSettingsRootUrl;
     });
 });
+
+document.addEventListener('addNewRoute', function(e) {
+    e.preventDefault();
+
+    
+})
